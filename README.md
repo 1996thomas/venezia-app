@@ -61,7 +61,7 @@ graph TD
     F --> G
     F --> I[Dashboard_UI]
 
-
+```
 
 # 🧠 Venezia Referral App — Technical Reference
 
@@ -168,4 +168,41 @@ graph TD
 1. Generate a **Railway Deploy Token**  
    → `Project → Settings → Generate Deploy Token`
 2. Add it to GitHub Secrets:  
+RAILWAY_TOKEN = your_token
 
+3. Automatic deployments on push to `main` or `dev`.
+
+---
+
+## 🧮 Analytics Dashboard KPIs
+
+| Metric | Description |
+|---------|-------------|
+| **Total Referrals** | Number of unique referral links used |
+| **Conversion Rate** | Referred orders / total codes |
+| **Cashback Paid** | Total amount paid to referrers |
+| **Average Reward** | Mean cashback per referrer |
+| **Active Referrers** | Customers with more than 1 referral |
+| **Abuse Flags** | Duplicates or suspicious activity detected |
+
+---
+
+## 🗺️ Roadmap
+
+| Phase | Feature | Description |
+|-------|----------|-------------|
+| 1️⃣ | MVP | Referral + cashback + dashboard |
+| 2️⃣ | Analytics | KPIs and conversion tracking |
+| 3️⃣ | Friends of Venezia | Loyalty membership system |
+| 4️⃣ | Stripe Connect | Automatic reward payouts |
+| 5️⃣ | Email Automation | Invite friends & track campaigns |
+| 6️⃣ | Multi-currency | Cashback by region |
+
+---
+
+## 🧾 Summary
+
+The **Venezia Referral App** acts as a **lightweight referral CRM** integrated with Shopify.  
+It automates code generation, discount handling, and cashback rewards — providing Venezia Photo with a transparent, data-driven system to manage customer engagement and incentives efficiently.
+
+---
