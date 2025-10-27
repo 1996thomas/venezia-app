@@ -9,11 +9,11 @@ It connects directly to the **Venezia Photo Shopify store**, providing the team 
 
 The Venezia Referral App introduces a structured referral flow inside the Venezia Photo e-commerce ecosystem:
 
-1. **Referral creation** → After a purchase, a customer automatically receives a **unique referral code**.
-2. **Referral usage** → A new customer can use this code to receive a **discount** (e.g. 10 % off).
-3. **Reward system** → The referrer earns a **cashback (e.g. €20)** for every new referred purchase.
-4. **Dashboard** → Venezia admins can view referrers, referrals, and transactions in real time.
-5. **Legacy customers** → Admins can manually create one-time promo codes.
+1. **Referral creation** → After a purchase, a customer automatically receives a **unique referral code**.  
+2. **Referral usage** → A new customer can use this code to receive a **discount** (e.g. 10 % off).  
+3. **Reward system** → The referrer earns a **cashback (e.g. €20)** for every new referred purchase.  
+4. **Dashboard** → Venezia admins can view referrers, referrals, and transactions in real time.  
+5. **Legacy customers** → Admins can manually create one-time promo codes.  
 6. **Analytics** → The system tracks usage, ROI, and detects potential abuse.
 
 ---
@@ -48,15 +48,15 @@ Admins can:
 
 ```mermaid
 graph TD
-    A[Shopify Store (Venezia Photo)] -->|Webhook ORDER_PAID| B[Venezia Referral App (Remix)]
-    B --> C[Referral Service]
-    B --> D[Reward Service]
-    B --> E[Promo Code Service]
-    B --> F[Analytics Engine]
-    B --> G[PostgreSQL (Railway)]
-    B --> H[Shopify Admin GraphQL API]
+    A[Shopify_Store_Venezia_Photo] -->|Webhook_ORDER_PAID| B[Venezia_Referral_App_Remix]
+    B --> C[Referral_Service]
+    B --> D[Reward_Service]
+    B --> E[Promo_Code_Service]
+    B --> F[Analytics_Engine]
+    B --> G[PostgreSQL_Railway]
+    B --> H[Shopify_Admin_GraphQL_API]
     C --> G
     D --> G
     E --> H
     F --> G
-    F --> I[Dashboard UI]
+    F --> I[Dashboard_UI]
