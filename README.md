@@ -194,15 +194,5 @@ RAILWAY_TOKEN = your_token
 | 1️⃣ | MVP | Referral + cashback + dashboard |
 | 2️⃣ | Analytics | KPIs and conversion tracking |
 | 3️⃣ | Friends of Venezia | Loyalty membership system |
-| 4️⃣ | Stripe Connect | Automatic reward payouts |
-| 5️⃣ | Email Automation | Invite friends & track campaigns |
-| 6️⃣ | Multi-currency | Cashback by region |
+| 4️⃣ | Shopify Connect | Automatic reward payouts |
 
----
-
-## 🧾 Summary
-
-The **Venezia Referral App** acts as a **lightweight referral CRM** integrated with Shopify.  
-It automates code generation, discount handling, and cashback rewards — providing Venezia Photo with a transparent, data-driven system to manage customer engagement and incentives efficiently.
-
----
